@@ -26,9 +26,9 @@ function ContactForm() {
 
 	function onSubmit(values: z.infer<typeof ContactFormSchema>) {
 		setLoading(true)
-		
-		const telegramBotApi = process.env.NEXT_PUBLIC_TELEGRAM_BOT_API!
-		const telegramChatId = process.env.NEXT_PUBLIC_TELEGRAM_CHAT_ID!
+
+		const telegramBotApi = process.env.NEXT_PUBLIC_TETELGRAM_BOT_API!
+		const telegramChatId = process.env.NEXT_PUBLIC_TETELGRAM_CHAT_ID!
 
 		const promise = fetch(
 			`https://api.telegram.org/bot${telegramBotApi}/sendMessage`,
@@ -40,13 +40,13 @@ function ContactForm() {
 				},
 				body: JSON.stringify({
 					chat_id: telegramChatId,
-					text: `Udemy Blog
+					text: `Udemy Blog Contact
 						Message from ${values.name} for you. 
 						Email:${values.email}. 
 						Message : ${values.message}
 					`,
 				}),
-			}
+			},
 		)
 			.then(() => form.reset())
 			.finally(() => setLoading(false))
