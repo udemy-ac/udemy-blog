@@ -38,11 +38,11 @@ function ContactPage() {
 
 					<div className='mt-12 flex items-center gap-3'>
 						<Mail className='w-4 h-4' />
-						<p className='text-sm'>masterUdemy@gmail.com</p>
+						<p className='text-sm'>umarjonovbekzod77@gmail.com</p>
 					</div>
 					<div className='flex items-center gap-3 mt-2'>
 						<Phone className='w-4 h-4' />
-						<p className='text-sm'>+998 88 729 55 57</p>
+						<p className='text-sm'>+998 97 479 94 88</p>
 					</div>
 				</div>
 

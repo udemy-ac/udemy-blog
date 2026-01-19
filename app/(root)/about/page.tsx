@@ -30,7 +30,7 @@ function AboutPage() {
 			</div>
 			<h1 className='text-center text-4xl font-creteRound'>
 				Biz <span className='text-blue-500 text-5xl ml-2'>Udemy Academy</span>
-				<br /> Contentmaker va dizaynerlar jamoasi
+				<br /> barcha sohalar jamlangan jamiyat
 			</h1>
 
 			<div className='grid grid-cols-4 gap-4 min-h-96 mt-12'>
@@ -66,18 +66,23 @@ function AboutPage() {
 
 			<div className='max-w-6xl mx-auto mt-12 flex flex-col text-center space-y-4 text-muted-foreground'>
 				<p>
-					Agar ijodkorlik bilan aqldan ozishingiz mumkin bo'lgan joy mavjud
-					bo'lsa, bu sizning sahifangizdir. Bu sizning o'quvchilaringizga
-					kimligingizni ko'rsatish imkoniyatidir. Rasmlar, iqtiboslar,
-					ilhomlantiruvchi grafiklar, sizni harakatga keltiradigan nima
-					bo'lishidan qat'i nazar.. Bu yerda uni faqat o'zingiz qila oladigan
-					tarzda ko'rsating.
+					"Udemy Academy – bu barcha IT va kreativ sohalarni o‘zida jamlagan
+					o‘quv jamiyati. Bizning asosiy yo‘nalishlarimiz Web Development va
+					Dizayn, lekin shuningdek siz dasturlashning boshqa tarmoqlari, raqamli
+					marketing, ma’lumotlar tahlili va zamonaviy texnologiyalar bo‘yicha
+					bilim olishingiz mumkin. Har bir kursimiz amaliyotga yo‘naltirilgan,
+					tajribali instruktorlar boshchiligida o‘tkaziladi va sizni real
+					loyihalarda ishlashga tayyorlaydi. Bizning maqsadimiz – har bir
+					o‘quvchimizni zamonaviy IT va kreativ sohada muvaffaqiyatli mutaxassis
+					qilish. Bu yerda siz o‘rganasiz, rivojlanasiz va o‘z ijodingizni
+					namoyon qilasiz."
 				</p>
 				<p>
-					I’ve included a plugin in the setup of this theme that will make
-					adding columns to your pages and posts a piece of cake. Let creativity
-					take control, and forget about the technical end of things, I’ve got
-					your six.
+					Nega biz? <br/>
+					“Udemy Academy o‘quvchilarga real loyihalar, amaliy
+					mashg‘ulotlar va tajribali instruktorlar bilan ishlash imkonini
+					beradi. Bizning kurslarimiz nafaqat bilim beradi, balki sizni IT va
+					dizayn sohasida haqiqiy professional qilishga yo‘naltirilgan.”.
 				</p>
 			</div>
 
