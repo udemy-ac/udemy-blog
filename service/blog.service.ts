@@ -36,18 +36,10 @@ export const getBlogs = async () => {
 			}
 		}
 	`
-	const res = await fetch(graphqlAPI, {
-    method: "POST",
-    headers: {
-      "Content-Type": "application/json",
-    },
-    body: JSON.stringify({ query }),
-    next: { revalidate: 60 }, // ISR: har 60 sekundda yangilanadi
-  })
+	const { blogs} = await request<{ blogs: IBlog[] }>(graphqlAPI, query)
+	
 
-  const { data } = await res.json()
-
-  return data.blogs
+  return blogs
 }
 
 export const getDetailedBlog = async (slug: string) => {
